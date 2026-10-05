@@ -1,0 +1,3000 @@
+{
+  "magic": "sc6969",
+  "version": 6,
+  "bytes": 44299956,
+  "textures": 99,
+  "materials": 61,
+  "nodes": 376,
+  "kinds": {
+    "dummy": 188,
+    "mesh": 188,
+    "skinned": 0
+  },
+  "material_samples": [
+    {
+      "name": "chrome",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "black_s",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "clearled_security",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "HEADREST_PADS",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "MIRROR",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "tvcam",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "carbon",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_cockpit_details",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "cockpit_carbon2",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "gp26_rainlight",
+      "shader": "ksPerPixelNM"
+    },
+    {
+      "name": "chrome_bolt",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "cockpit_carbon",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "cockpit_chrome",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_chrome_cinture",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_cinture",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_cinture_on",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "cockpit_cables",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "cockpit_buttons",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "cockpit_black_s",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "cockpit_foam",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "car_chassis",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "decals",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "carbon2",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "carbon3",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_bulb_rlight",
+      "shader": "ksPerPixelNM"
+    },
+    {
+      "name": "chrome_drs",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "black",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "RIM_BLUR",
+      "shader": "ksPerPixelNM"
+    },
+    {
+      "name": "hub_nut",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_nut",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "RIM_BLURRED",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "RTT_TIRE_TREAD",
+      "shader": "ksTyres"
+    },
+    {
+      "name": "RTT_TIRE",
+      "shader": "ksTyres"
+    },
+    {
+      "name": "RIM2",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "RIM",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "carbon_caliper",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "chrome_rake",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "chrome_fw",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "chrome2",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "mirrors_light",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "glass",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "color_green_light",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "black_s_3",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "WIND_IN",
+      "shader": "ksWindscreen"
+    },
+    {
+      "name": "WIND",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "sw_plastic_black",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_sw_handles",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_sw_chrome",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_sw_carbon",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_sw_buttons",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "rtt_sw_qr",
+      "shader": "ksPerPixelMultiMap"
+    },
+    {
+      "name": "sw_decals",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "rtt_sw_driver_logo",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "BLACK",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "CLEARLED",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "gp21_LCD",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "kers_green",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "kers_red",
+      "shader": "ksPerPixelReflection"
+    },
+    {
+      "name": "CLEARLED_PRE",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "TAG_DRS_ON",
+      "shader": "ksPerPixel"
+    },
+    {
+      "name": "color_rear_light",
+      "shader": "ksPerPixelMultiMap"
+    }
+  ],
+  "interesting_nodes": [
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_details",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.123234262925839e-17,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        -3.725290298461914e-09,
+        0.819909930229187,
+        0.4256610870361328,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_details",
+      "parent": "cockpit_details",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 66,
+      "indices": 192,
+      "material_id": 7,
+      "material": "rtt_cockpit_details",
+      "local_bounds": {
+        "min": [
+          -0.035812024027109146,
+          -0.03149213269352913,
+          -0.03581276163458824
+        ],
+        "max": [
+          0.035812024027109146,
+          0.0314922034740448,
+          0.035670094192028046
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_carbon2",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        0.0,
+        0.0,
+        -1.6292068494294654e-07,
+        1.0,
+        0.0,
+        -0.3941099941730499,
+        0.5976697206497192,
+        -0.07134270668029785,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_carbon2",
+      "parent": "cockpit_carbon2",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 647,
+      "indices": 2508,
+      "material_id": 8,
+      "material": "cockpit_carbon2",
+      "local_bounds": {
+        "min": [
+          0.09903222322463989,
+          -0.5374834537506104,
+          -0.25392645597457886
+        ],
+        "max": [
+          0.6947879791259766,
+          0.07552951574325562,
+          1.4930392503738403
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_carbon003",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.123234262925839e-17,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        1.4901161193847656e-08,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_carbon003",
+      "parent": "cockpit_carbon003",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 581,
+      "indices": 2400,
+      "material_id": 8,
+      "material": "cockpit_carbon2",
+      "local_bounds": {
+        "min": [
+          -0.3200690448284149,
+          -0.7376335859298706,
+          0.5002686977386475
+        ],
+        "max": [
+          0.32314616441726685,
+          0.47089284658432007,
+          0.8191094398498535
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "COCKPIT_HR",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 0,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        0.0,
+        0.0,
+        -1.6292068494294654e-07,
+        1.0,
+        0.0,
+        -9.088732610962325e-08,
+        -0.009800642728805542,
+        -0.1425824761390686,
+        1.0
+      ]
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "COCKPIT_HR",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 8,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        0.0,
+        0.0,
+        -1.6292068494294654e-07,
+        1.0,
+        0.0,
+        -9.088732610962325e-08,
+        -0.009800642728805542,
+        -0.1425824761390686,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_carbon",
+      "parent": "COCKPIT_HR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.6469779601696886e-23,
+        0.0,
+        0.0,
+        -2.6469779601696886e-23,
+        1.0,
+        0.0,
+        2.0813146761611279e-07,
+        0.5001392364501953,
+        0.7995283603668213,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_carbon",
+      "parent": "cockpit_carbon",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 9674,
+      "indices": 47538,
+      "material_id": 11,
+      "material": "cockpit_carbon",
+      "local_bounds": {
+        "min": [
+          -0.29198941588401794,
+          -0.4172322452068329,
+          -0.9125617742538452
+        ],
+        "max": [
+          0.2920113801956177,
+          0.19598418474197388,
+          0.06000002473592758
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_chrome",
+      "parent": "COCKPIT_HR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.6469779601696886e-23,
+        0.0,
+        0.0,
+        -2.6469779601696886e-23,
+        1.0,
+        0.0,
+        0.2150452584028244,
+        0.4009894132614136,
+        0.6491530537605286,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_chrome",
+      "parent": "cockpit_chrome",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 12992,
+      "indices": 43746,
+      "material_id": 12,
+      "material": "cockpit_chrome",
+      "local_bounds": {
+        "min": [
+          -0.4699515402317047,
+          -0.07640443742275238,
+          -0.20863264799118042
+        ],
+        "max": [
+          0.03987112641334534,
+          0.28022176027297974,
+          0.5388482809066772
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_cables002",
+      "parent": "COCKPIT_HR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        6.123234262925839e-17,
+        -2.6469779601696886e-23,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.6469779601696886e-23,
+        0.0,
+        -1.0,
+        -1.4693679385278594e-39,
+        6.123234262925839e-17,
+        0.0,
+        0.21360139548778534,
+        0.33515194058418274,
+        0.2437514364719391,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_cables002",
+      "parent": "cockpit_cables002",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 6237,
+      "indices": 27300,
+      "material_id": 16,
+      "material": "cockpit_cables",
+      "local_bounds": {
+        "min": [
+          -0.45130467414855957,
+          -0.06941362470388412,
+          -0.056211039423942566
+        ],
+        "max": [
+          0.4982330799102783,
+          0.10847997665405273,
+          0.5060209631919861
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_buttons",
+      "parent": "COCKPIT_HR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6292068494294654e-07,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.6292068494294654e-07,
+        0.0,
+        -0.016901997849345207,
+        0.3998965620994568,
+        0.47431641817092896,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_buttons",
+      "parent": "cockpit_buttons",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 19484,
+      "indices": 47904,
+      "material_id": 17,
+      "material": "cockpit_buttons",
+      "local_bounds": {
+        "min": [
+          -0.26168686151504517,
+          -0.3114543557167053,
+          -0.22563055157661438
+        ],
+        "max": [
+          0.26168686151504517,
+          0.32097962498664856,
+          0.22563058137893677
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_blacks",
+      "parent": "COCKPIT_HR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6292068494294654e-07,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.6292068494294654e-07,
+        0.0,
+        -0.018222911283373833,
+        0.41070759296417236,
+        0.459280788898468,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_blacks",
+      "parent": "cockpit_blacks",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 9103,
+      "indices": 26202,
+      "material_id": 18,
+      "material": "cockpit_black_s",
+      "local_bounds": {
+        "min": [
+          -0.2548578083515167,
+          -0.33293113112449646,
+          -0.1490321159362793
+        ],
+        "max": [
+          0.291303813457489,
+          0.5440208315849304,
+          0.28818902373313904
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "cockpit_foam",
+      "parent": "COCKPIT_HR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6292068494294654e-07,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.6292068494294654e-07,
+        0.0,
+        9.018410196404147e-08,
+        0.4905238151550293,
+        1.092165231704712,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "cockpit_foam",
+      "parent": "cockpit_foam",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 2915,
+      "indices": 14772,
+      "material_id": 19,
+      "material": "cockpit_foam",
+      "local_bounds": {
+        "min": [
+          -0.19213390350341797,
+          -0.30173516273498535,
+          -0.1849706768989563
+        ],
+        "max": [
+          0.19213387370109558,
+          0.3682193458080292,
+          0.18909865617752075
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "HALO",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 3,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.123234262925839e-17,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        -1.3969838619232178e-08,
+        0.6859186291694641,
+        0.6580350399017334,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "HALO_SUB2",
+      "parent": "HALO",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 507,
+      "indices": 2382,
+      "material_id": 20,
+      "material": "car_chassis",
+      "local_bounds": {
+        "min": [
+          -0.043422624468803406,
+          -0.13647767901420593,
+          -0.03044816665351391
+        ],
+        "max": [
+          0.04474958777427673,
+          0.1372358500957489,
+          0.18907102942466736
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "HALO_SUB1",
+      "parent": "HALO",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 320,
+      "indices": 1374,
+      "material_id": 7,
+      "material": "rtt_cockpit_details",
+      "local_bounds": {
+        "min": [
+          -0.03594307601451874,
+          0.03723260760307312,
+          -0.0191629808396101
+        ],
+        "max": [
+          0.03623427450656891,
+          0.10825541615486145,
+          0.05330297350883484
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "HALO_SUB0",
+      "parent": "HALO",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 163,
+      "indices": 237,
+      "material_id": 6,
+      "material": "carbon",
+      "local_bounds": {
+        "min": [
+          -0.03823932260274887,
+          0.04068884253501892,
+          -0.029371945187449455
+        ],
+        "max": [
+          0.038239333778619766,
+          0.10864046216011047,
+          0.05457445979118347
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "RWING_WOBBLE",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        1.0,
+        -7.29946406236391e-24,
+        1.1920928955078125e-07,
+        0.0,
+        -5.21080354294037e-15,
+        1.0,
+        4.371138828673793e-08,
+        0.0,
+        -1.1920928955078125e-07,
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        9.22569540762197e-08,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "RWING",
+      "parent": "RWING_WOBBLE",
+      "child_count": 7,
+      "active": 1,
+      "matrix": [
+        1.0,
+        5.259943194223341e-31,
+        -1.1920928955078125e-07,
+        0.0,
+        -1.1920928955078125e-07,
+        -1.6292068494294654e-07,
+        -1.0,
+        0.0,
+        -1.942165910517532e-14,
+        1.0,
+        -1.6292068494294654e-07,
+        0.0,
+        -3.738995530966349e-07,
+        0.6446210145950317,
+        -2.237589120864868,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_SUB3",
+      "parent": "RWING",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 78,
+      "indices": 324,
+      "material_id": 21,
+      "material": "decals",
+      "local_bounds": {
+        "min": [
+          -0.04750432074069977,
+          -0.24716046452522278,
+          0.189337819814682
+        ],
+        "max": [
+          0.04814039170742035,
+          0.021764306351542473,
+          0.33908459544181824
+        ]
+      }
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_SUB4",
+      "parent": "RWING",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 400,
+      "indices": 1662,
+      "material_id": 22,
+      "material": "carbon2",
+      "local_bounds": {
+        "min": [
+          -0.04643137753009796,
+          -0.2731781303882599,
+          0.1077740490436554
+        ],
+        "max": [
+          0.045371636748313904,
+          0.039130717515945435,
+          0.3527880012989044
+        ]
+      }
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_SUB5",
+      "parent": "RWING",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 1537,
+      "indices": 5004,
+      "material_id": 23,
+      "material": "carbon3",
+      "local_bounds": {
+        "min": [
+          -0.33793574571609497,
+          -0.36748602986335754,
+          -0.3499380052089691
+        ],
+        "max": [
+          0.33793574571609497,
+          0.15667107701301575,
+          0.16298434138298035
+        ]
+      }
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_SUB0",
+      "parent": "RWING",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 1647,
+      "indices": 6390,
+      "material_id": 20,
+      "material": "car_chassis",
+      "local_bounds": {
+        "min": [
+          -0.5914911031723022,
+          -0.26171162724494934,
+          -0.3527880012989044
+        ],
+        "max": [
+          0.5914911031723022,
+          0.3682256042957306,
+          0.29800495505332947
+        ]
+      }
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_SUB2",
+      "parent": "RWING",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 144,
+      "indices": 144,
+      "material_id": 1,
+      "material": "black_s",
+      "local_bounds": {
+        "min": [
+          -0.127261683344841,
+          -0.25153210759162903,
+          0.09450480341911316
+        ],
+        "max": [
+          0.127261683344841,
+          -0.10324570536613464,
+          0.17763301730155945
+        ]
+      }
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_SUB1",
+      "parent": "RWING",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 328,
+      "indices": 960,
+      "material_id": 0,
+      "material": "chrome",
+      "local_bounds": {
+        "min": [
+          -0.5496084690093994,
+          -0.028489617630839348,
+          0.15512219071388245
+        ],
+        "max": [
+          0.5496087074279785,
+          0.22411587834358215,
+          0.29081490635871887
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "RWING_2",
+      "parent": "RWING_WOBBLE",
+      "child_count": 4,
+      "active": 1,
+      "matrix": [
+        1.0,
+        5.259943194223341e-31,
+        -1.1920928955078125e-07,
+        0.0,
+        -1.1920928955078125e-07,
+        -1.6292068494294654e-07,
+        -1.0,
+        0.0,
+        -1.942165910517532e-14,
+        1.0,
+        -1.6292068494294654e-07,
+        0.0,
+        -3.6413004522728443e-07,
+        0.8990830183029175,
+        -2.426406145095825,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_2_SUB1",
+      "parent": "RWING_2",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 128,
+      "indices": 318,
+      "material_id": 25,
+      "material": "chrome_drs",
+      "local_bounds": {
+        "min": [
+          -0.036475490778684616,
+          -0.13862422108650208,
+          -0.08793637156486511
+        ],
+        "max": [
+          0.03647507727146149,
+          -0.061197489500045776,
+          -0.010193319991230965
+        ]
+      }
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_2_SUB0",
+      "parent": "RWING_2",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 897,
+      "indices": 4488,
+      "material_id": 20,
+      "material": "car_chassis",
+      "local_bounds": {
+        "min": [
+          -0.547910749912262,
+          -0.21242526173591614,
+          -0.13639631867408752
+        ],
+        "max": [
+          0.5479106903076172,
+          0.0339069664478302,
+          0.03378286957740784
+        ]
+      }
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "RWING_2_SUB2",
+      "parent": "RWING_2",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 509,
+      "indices": 600,
+      "material_id": 26,
+      "material": "black",
+      "local_bounds": {
+        "min": [
+          -0.547910749912262,
+          -0.21242526173591614,
+          -0.09847763180732727
+        ],
+        "max": [
+          0.547910749912262,
+          0.03371432423591614,
+          0.03378286957740784
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "SUSP_RR",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        0.9997806549072266,
+        -0.02094242163002491,
+        -4.656612428988183e-09,
+        0.0,
+        0.02094206027686596,
+        0.9997633695602417,
+        0.005880358628928661,
+        0.0,
+        -0.00012314431660342962,
+        -0.005879069212824106,
+        0.9999827146530151,
+        0.0,
+        -0.7309063673019409,
+        0.3575306534767151,
+        -1.8847260475158691,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "HUB_RR",
+      "parent": "SUSP_RR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        2.2287251949310303,
+        9.289937565881701e-07,
+        -6.389379025861786e-10,
+        0.0,
+        -9.28954193568643e-07,
+        2.2286148071289062,
+        -0.02224246971309185,
+        0.0,
+        -8.632357051396866e-09,
+        0.022242451086640358,
+        2.2286128997802734,
+        0.0,
+        2.384185791015625e-07,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 1,
+      "kind": "dummy",
+      "name": "WHEEL_RR",
+      "parent": "HUB_RR",
+      "child_count": 3,
+      "active": 1,
+      "matrix": [
+        0.4602978527545929,
+        -2.0116566190608864e-07,
+        -3.6379785902512785e-12,
+        0.0,
+        5.444345529959094e-10,
+        0.0012540739262476563,
+        -0.46029651165008545,
+        0.0,
+        2.0116489451993402e-07,
+        0.460296094417572,
+        0.001254072762094438,
+        0.0,
+        -5.960464477539063e-08,
+        -2.384185791015625e-07,
+        1.1102230246251565e-16,
+        1.0
+      ]
+    },
+    {
+      "depth": 4,
+      "type": 1,
+      "kind": "dummy",
+      "name": "TYRE_RR",
+      "parent": "WHEEL_RR",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        0.9747753739356995,
+        0.00017565133748576045,
+        -8.754430780300027e-08,
+        0.0,
+        -0.00017565133748576045,
+        0.9747753739356995,
+        -1.8545380271461909e-06,
+        0.0,
+        8.721011823809022e-08,
+        1.8545536022429587e-06,
+        0.9747753143310547,
+        0.0,
+        -5.960464477539063e-08,
+        -1.1920928955078125e-07,
+        5.662441253662109e-07,
+        1.0
+      ]
+    },
+    {
+      "depth": 5,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_RR_SUB1",
+      "parent": "TYRE_RR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 3546,
+      "indices": 19872,
+      "material_id": 31,
+      "material": "RTT_TIRE_TREAD",
+      "local_bounds": {
+        "min": [
+          -0.21179386973381042,
+          -0.3874576985836029,
+          -0.3875741958618164
+        ],
+        "max": [
+          0.215642049908638,
+          0.38726261258125305,
+          0.3875741958618164
+        ]
+      }
+    },
+    {
+      "depth": 5,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_RR_SUB0",
+      "parent": "TYRE_RR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 2380,
+      "indices": 12420,
+      "material_id": 32,
+      "material": "RTT_TIRE",
+      "local_bounds": {
+        "min": [
+          -0.2418372929096222,
+          -0.3611723780632019,
+          -0.3608114719390869
+        ],
+        "max": [
+          0.24184152483940125,
+          0.35990723967552185,
+          0.36124980449676514
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "SUSP_LR",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        0.9997807145118713,
+        0.02094258740544319,
+        -1.864464138634503e-09,
+        0.0,
+        -0.020942509174346924,
+        0.9997769594192505,
+        -0.0027241443749517202,
+        0.0,
+        -5.7048768212553114e-05,
+        0.0027235469315201044,
+        0.9999963045120239,
+        0.0,
+        0.7309064865112305,
+        0.3575306534767151,
+        -1.8847260475158691,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "HUB_LR",
+      "parent": "SUSP_LR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        2.2287251949310303,
+        -3.4310223445489947e-18,
+        -2.0206491595861103e-21,
+        0.0,
+        3.431021310573229e-18,
+        2.228724479675293,
+        7.80448317527771e-07,
+        0.0,
+        2.019447970552061e-21,
+        -7.804485449014464e-07,
+        2.2287251949310303,
+        0.0,
+        -2.384185791015625e-07,
+        -5.551115123125783e-17,
+        -1.1920928955078125e-07,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 1,
+      "kind": "dummy",
+      "name": "WHEEL_LR",
+      "parent": "HUB_LR",
+      "child_count": 3,
+      "active": 1,
+      "matrix": [
+        0.4602977931499481,
+        7.35744833946228e-08,
+        5.4569682106375694e-12,
+        0.0,
+        -1.949251732247248e-10,
+        0.0012536336435005069,
+        -0.4602961242198944,
+        0.0,
+        -7.357425602094736e-08,
+        0.46029627323150635,
+        0.0012536341091617942,
+        0.0,
+        1.7881393432617188e-07,
+        1.1175870895385742e-07,
+        5.960464477539063e-08,
+        1.0
+      ]
+    },
+    {
+      "depth": 4,
+      "type": 1,
+      "kind": "dummy",
+      "name": "TYRE_LR",
+      "parent": "WHEEL_LR",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        0.9747753739356995,
+        5.187513085758155e-09,
+        4.6566125888602983e-07,
+        0.0,
+        -5.187651197502419e-09,
+        0.974775493144989,
+        2.8753962055816373e-07,
+        0.0,
+        -4.6566125888602983e-07,
+        -2.875395921364543e-07,
+        0.9747753739356995,
+        0.0,
+        -2.384185791015625e-07,
+        -2.220446049250313e-16,
+        -2.384185791015625e-07,
+        1.0
+      ]
+    },
+    {
+      "depth": 5,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_LR_SUB1",
+      "parent": "TYRE_LR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 3546,
+      "indices": 19872,
+      "material_id": 31,
+      "material": "RTT_TIRE_TREAD",
+      "local_bounds": {
+        "min": [
+          -0.21565011143684387,
+          -0.387605220079422,
+          -0.3873237669467926
+        ],
+        "max": [
+          0.21179381012916565,
+          0.3875674307346344,
+          0.3875741958618164
+        ]
+      }
+    },
+    {
+      "depth": 5,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_LR_SUB0",
+      "parent": "TYRE_LR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 2380,
+      "indices": 12420,
+      "material_id": 32,
+      "material": "RTT_TIRE",
+      "local_bounds": {
+        "min": [
+          -0.24184146523475647,
+          -0.36027029156684875,
+          -0.3614240288734436
+        ],
+        "max": [
+          0.24184086918830872,
+          0.3612786829471588,
+          0.36124980449676514
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "HUB_LF",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        2.2246153354644775,
+        0.13527238368988037,
+        -2.947253960883245e-05,
+        0.0,
+        -0.1352718621492386,
+        2.224605083465576,
+        -0.007040444761514664,
+        0.0,
+        -0.0003979009634349495,
+        0.007029243279248476,
+        2.228710651397705,
+        0.0,
+        0.5659999847412109,
+        0.3573829233646393,
+        1.5147438049316406,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "SUSP_LF",
+      "parent": "HUB_LF",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        0.44868698716163635,
+        -1.2861536661493805e-18,
+        -5.566141297874694e-12,
+        0.0,
+        -7.442807783581164e-19,
+        0.44868752360343933,
+        -1.6367357602575794e-07,
+        0.0,
+        5.566145634683384e-12,
+        1.6367349076062965e-07,
+        0.4486873149871826,
+        0.0,
+        0.07853439450263977,
+        2.7755575615628914e-17,
+        -5.19388514419461e-08,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "WHEEL_LF",
+      "parent": "HUB_LF",
+      "child_count": 3,
+      "active": 1,
+      "matrix": [
+        0.46029797196388245,
+        3.725290742551124e-09,
+        7.275958481545164e-12,
+        0.0,
+        -2.869998726520717e-12,
+        0.0012536339927464724,
+        -0.46029624342918396,
+        0.0,
+        -3.725298292067691e-09,
+        0.46029648184776306,
+        0.0012536345748230815,
+        0.0,
+        0.07853442430496216,
+        -7.450580596923828e-09,
+        -1.1102230246251565e-16,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 1,
+      "kind": "dummy",
+      "name": "TYRE_LF",
+      "parent": "WHEEL_LF",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        0.9747755527496338,
+        6.67554943614701e-12,
+        -2.6077033865590238e-08,
+        0.0,
+        -6.6711896423710115e-12,
+        0.9747768044471741,
+        1.6328976926160976e-07,
+        0.0,
+        2.6077012549308165e-08,
+        -1.632894282010966e-07,
+        0.9747747778892517,
+        0.0,
+        1.1102230246251565e-16,
+        0.0,
+        2.9802322387695312e-08,
+        1.0
+      ]
+    },
+    {
+      "depth": 4,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_LF_SUB1",
+      "parent": "TYRE_LF",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 3546,
+      "indices": 19872,
+      "material_id": 31,
+      "material": "RTT_TIRE_TREAD",
+      "local_bounds": {
+        "min": [
+          -0.18124523758888245,
+          -0.38747671246528625,
+          -0.3875741958618164
+        ],
+        "max": [
+          0.1780935823917389,
+          0.387605220079422,
+          0.3875741958618164
+        ]
+      }
+    },
+    {
+      "depth": 4,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_LF_SUB0",
+      "parent": "TYRE_LF",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 2380,
+      "indices": 12420,
+      "material_id": 32,
+      "material": "RTT_TIRE",
+      "local_bounds": {
+        "min": [
+          -0.20258250832557678,
+          -0.36117222905158997,
+          -0.36133769154548645
+        ],
+        "max": [
+          0.20258274674415588,
+          0.36127880215644836,
+          0.36124980449676514
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "HUB_RF",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        2.224616765975952,
+        -0.1352720856666565,
+        2.946294262073934e-05,
+        0.0,
+        0.13527145981788635,
+        2.224604845046997,
+        -0.0070404428988695145,
+        0.0,
+        0.00039790908340364695,
+        0.007029238156974316,
+        2.2287096977233887,
+        0.0,
+        -0.5659999847412109,
+        0.3573829233646393,
+        1.5147438049316406,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "WHEEL_RF",
+      "parent": "HUB_RF",
+      "child_count": 3,
+      "active": 1,
+      "matrix": [
+        0.46029791235923767,
+        -1.657776136867404e-18,
+        7.275957614183426e-12,
+        0.0,
+        7.275932894373893e-12,
+        0.0012536343419924378,
+        -0.4602963626384735,
+        0.0,
+        -1.9807469060122498e-14,
+        0.46029672026634216,
+        0.0012536353897303343,
+        0.0,
+        -0.07853430509567261,
+        7.450580596923828e-09,
+        -5.960464477539063e-08,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 1,
+      "kind": "dummy",
+      "name": "TYRE_RF",
+      "parent": "WHEEL_RF",
+      "child_count": 2,
+      "active": 1,
+      "matrix": [
+        0.9747750759124756,
+        1.779900532516976e-10,
+        1.1175870007207322e-08,
+        0.0,
+        -1.7799228757553465e-10,
+        0.9747769236564636,
+        1.6545241976473335e-07,
+        0.0,
+        -1.1175862901779965e-08,
+        -1.654519934390919e-07,
+        0.9747744202613831,
+        0.0,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "depth": 4,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_RF_SUB1",
+      "parent": "TYRE_RF",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 3546,
+      "indices": 19872,
+      "material_id": 31,
+      "material": "RTT_TIRE_TREAD",
+      "local_bounds": {
+        "min": [
+          -0.17809361219406128,
+          -0.38760510087013245,
+          -0.3875741958618164
+        ],
+        "max": [
+          0.18124522268772125,
+          0.38743600249290466,
+          0.3875741958618164
+        ]
+      }
+    },
+    {
+      "depth": 4,
+      "type": 2,
+      "kind": "mesh",
+      "name": "TYRE_RF_SUB0",
+      "parent": "TYRE_RF",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 2380,
+      "indices": 12420,
+      "material_id": 32,
+      "material": "RTT_TIRE",
+      "local_bounds": {
+        "min": [
+          -0.20258226990699768,
+          -0.361350417137146,
+          -0.36133769154548645
+        ],
+        "max": [
+          0.20258279144763947,
+          0.3609534204006195,
+          0.36034834384918213
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "SUSP_RF",
+      "parent": "HUB_RF",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        0.44868695735931396,
+        2.9211106422621924e-08,
+        -1.2746513844419383e-09,
+        0.0,
+        -2.921114905518607e-08,
+        0.4486876130104065,
+        -1.6367360444746737e-07,
+        0.0,
+        1.2746420585685314e-09,
+        1.636735333931938e-07,
+        0.4486874043941498,
+        0.0,
+        -0.07853430509567261,
+        -1.37532651933725e-08,
+        -1.1154350687547776e-07,
+        1.0
+      ]
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "MAIN_BODY",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 3,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.123234262925839e-17,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        0.0,
+        0.5674440264701843,
+        0.4177147150039673,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "MAIN_BODY_SUB1",
+      "parent": "MAIN_BODY",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 560,
+      "indices": 1554,
+      "material_id": 37,
+      "material": "chrome_fw",
+      "local_bounds": {
+        "min": [
+          -0.5870531797409058,
+          -2.057481527328491,
+          -0.40029510855674744
+        ],
+        "max": [
+          0.5870531797409058,
+          -1.6374784708023071,
+          -0.23351743817329407
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "MAIN_BODY_SUB2",
+      "parent": "MAIN_BODY",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 6123,
+      "indices": 22980,
+      "material_id": 22,
+      "material": "carbon2",
+      "local_bounds": {
+        "min": [
+          -0.9134687185287476,
+          -2.3310136795043945,
+          -0.5752310752868652
+        ],
+        "max": [
+          0.9134687185287476,
+          3.023764133453369,
+          0.4706473648548126
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "MAIN_BODY_SUB0",
+      "parent": "MAIN_BODY",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 23778,
+      "indices": 103626,
+      "material_id": 20,
+      "material": "car_chassis",
+      "local_bounds": {
+        "min": [
+          -0.9189221858978271,
+          -2.3321328163146973,
+          -0.49359390139579773
+        ],
+        "max": [
+          0.9189221858978271,
+          2.281588554382324,
+          0.4866677224636078
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "_WINGLETS_FWING",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.123234262925839e-17,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        -0.7228964567184448,
+        0.34779009222984314,
+        2.12703013420105,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "_WINGLETS_FWING",
+      "parent": "_WINGLETS_FWING",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 1802,
+      "indices": 8448,
+      "material_id": 22,
+      "material": "carbon2",
+      "local_bounds": {
+        "min": [
+          -0.19720324873924255,
+          -0.1648557484149933,
+          -0.05040287971496582
+        ],
+        "max": [
+          1.642996072769165,
+          0.14427654445171356,
+          0.05680501461029053
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "FWING_1",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 5,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.03277994319796562,
+        -0.9994626045227051,
+        0.0,
+        0.0,
+        0.9994626045227051,
+        -0.03277994319796562,
+        0.0,
+        -1.683343668901216e-07,
+        0.18072502315044403,
+        2.472438335418701,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "FWING_1_SUB3",
+      "parent": "FWING_1",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 144,
+      "indices": 468,
+      "material_id": 38,
+      "material": "chrome2",
+      "local_bounds": {
+        "min": [
+          -0.12789832055568695,
+          0.10519048571586609,
+          -0.008942930027842522
+        ],
+        "max": [
+          0.1278986632823944,
+          0.17629173398017883,
+          0.05681233108043671
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "FWING_1_SUB0",
+      "parent": "FWING_1",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 548,
+      "indices": 1518,
+      "material_id": 37,
+      "material": "chrome_fw",
+      "local_bounds": {
+        "min": [
+          -0.5463741421699524,
+          0.018181057646870613,
+          -0.010918376967310905
+        ],
+        "max": [
+          0.5463495254516602,
+          0.4176008999347687,
+          0.17634187638759613
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "FWING_1_SUB2",
+      "parent": "FWING_1",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 978,
+      "indices": 4368,
+      "material_id": 20,
+      "material": "car_chassis",
+      "local_bounds": {
+        "min": [
+          -0.5457927584648132,
+          -0.0549793541431427,
+          -0.06834276020526886
+        ],
+        "max": [
+          0.5457940697669983,
+          0.41070011258125305,
+          0.18650652468204498
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "FWING_1_SUB1",
+      "parent": "FWING_1",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 240,
+      "indices": 240,
+      "material_id": 26,
+      "material": "black",
+      "local_bounds": {
+        "min": [
+          -0.5457939505577087,
+          0.02198168821632862,
+          0.00386996753513813
+        ],
+        "max": [
+          0.545792818069458,
+          0.25728633999824524,
+          0.09969820082187653
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "fwing_arms",
+      "parent": "FWING_1",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9994626045227051,
+        0.03277994319796562,
+        0.0,
+        0.0,
+        -0.03277994319796562,
+        0.9994626045227051,
+        0.0,
+        1.7579449718141404e-07,
+        0.14014959335327148,
+        0.025727063417434692,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "fwing_arms",
+      "parent": "fwing_arms",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 368,
+      "indices": 960,
+      "material_id": 38,
+      "material": "chrome2",
+      "local_bounds": {
+        "min": [
+          -0.12418735027313232,
+          -0.03324133902788162,
+          -0.03163844347000122
+        ],
+        "max": [
+          0.12376463413238525,
+          0.032804250717163086,
+          0.19978594779968262
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "_SUSP_ADD",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.123234262925839e-17,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        2.9802322387695312e-08,
+        0.4792643189430237,
+        1.5064151287078857,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "_SUSP_ADD",
+      "parent": "_SUSP_ADD",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 442,
+      "indices": 1416,
+      "material_id": 22,
+      "material": "carbon2",
+      "local_bounds": {
+        "min": [
+          -0.273420512676239,
+          -0.007639972493052483,
+          0.024646731093525887
+        ],
+        "max": [
+          0.273420512676239,
+          0.17883536219596863,
+          0.15432247519493103
+        ]
+      }
+    },
+    {
+      "depth": 1,
+      "type": 1,
+      "kind": "dummy",
+      "name": "STEER_HR",
+      "parent": "FBX: ferrari_sf90.fbx",
+      "child_count": 71,
+      "active": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        0.0,
+        0.0,
+        -1.6292068494294654e-07,
+        1.0,
+        0.0,
+        4.539919828960848e-10,
+        0.5770000219345093,
+        0.48477277159690857,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB6",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 2534,
+      "indices": 12282,
+      "material_id": 45,
+      "material": "sw_plastic_black",
+      "local_bounds": {
+        "min": [
+          -0.1746959239244461,
+          -0.11188697069883347,
+          -0.10224626958370209
+        ],
+        "max": [
+          0.17480356991291046,
+          0.07433799654245377,
+          0.02165903151035309
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB5",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 6840,
+      "indices": 28482,
+      "material_id": 46,
+      "material": "rtt_sw_handles",
+      "local_bounds": {
+        "min": [
+          -0.17597004771232605,
+          -0.078743115067482,
+          -0.10374569147825241
+        ],
+        "max": [
+          0.175988107919693,
+          0.1126580610871315,
+          -0.003443526104092598
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB4",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 779,
+      "indices": 1782,
+      "material_id": 47,
+      "material": "rtt_sw_chrome",
+      "local_bounds": {
+        "min": [
+          -0.05761171877384186,
+          -0.06045617163181305,
+          -0.0667942613363266
+        ],
+        "max": [
+          0.05780087411403656,
+          0.07445434480905533,
+          0.054877109825611115
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB3",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 14829,
+      "indices": 71238,
+      "material_id": 48,
+      "material": "rtt_sw_carbon",
+      "local_bounds": {
+        "min": [
+          -0.16569365561008453,
+          -0.08808806538581848,
+          -0.10010106861591339
+        ],
+        "max": [
+          0.16569365561008453,
+          0.11665767431259155,
+          0.039771974086761475
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB2",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 4254,
+      "indices": 14418,
+      "material_id": 49,
+      "material": "rtt_sw_buttons",
+      "local_bounds": {
+        "min": [
+          -0.16431975364685059,
+          -0.08707961440086365,
+          -0.1047431156039238
+        ],
+        "max": [
+          0.16431975364685059,
+          0.11062607169151306,
+          -0.008015932515263557
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB0",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 3018,
+      "indices": 12372,
+      "material_id": 50,
+      "material": "rtt_sw_qr",
+      "local_bounds": {
+        "min": [
+          -0.06304923444986343,
+          -0.06317773461341858,
+          -0.023775886744260788
+        ],
+        "max": [
+          0.06304923444986343,
+          0.06318031996488571,
+          0.04977685958147049
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB8",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 846,
+      "indices": 4692,
+      "material_id": 51,
+      "material": "sw_decals",
+      "local_bounds": {
+        "min": [
+          -0.1146487221121788,
+          0.05251724272966385,
+          -0.09743399918079376
+        ],
+        "max": [
+          0.11463235318660736,
+          0.11702388525009155,
+          0.007741797715425491
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB7",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 308,
+      "indices": 1638,
+      "material_id": 52,
+      "material": "rtt_sw_driver_logo",
+      "local_bounds": {
+        "min": [
+          -0.0698586106300354,
+          0.018287068232893944,
+          -0.057180389761924744
+        ],
+        "max": [
+          0.06646686047315598,
+          0.11386030167341232,
+          0.0061064306646585464
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_SUB1",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 122,
+      "indices": 360,
+      "material_id": 53,
+      "material": "BLACK",
+      "local_bounds": {
+        "min": [
+          -0.08150086551904678,
+          -0.022557174786925316,
+          -0.0966874286532402
+        ],
+        "max": [
+          0.08150086551904678,
+          0.09744284301996231,
+          -0.03668741136789322
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "DISPLAY_TYRE_LR",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "matrix": [
+        1.09170663356781,
+        1.9088005842604616e-07,
+        5.205662887419749e-07,
+        0.0,
+        -1.9088024316715746e-07,
+        1.09170663356781,
+        3.9042481603246415e-07,
+        0.0,
+        -5.246013756732282e-07,
+        -3.934512733394513e-07,
+        1.1001689434051514,
+        0.0,
+        0.015588823705911636,
+        0.03337055444717407,
+        -0.06823170185089111,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "STEER_HR_LCD",
+      "parent": "STEER_HR",
+      "child_count": 1,
+      "active": 1,
+      "matrix": [
+        1.0588923692703247,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.7251547035357362e-07,
+        -1.0588923692703247,
+        0.0,
+        0.0,
+        1.0588923692703247,
+        -1.7251547035357362e-07,
+        0.0,
+        -7.473105506505817e-05,
+        -0.008687198162078857,
+        -0.032632648944854736,
+        1.0
+      ]
+    },
+    {
+      "depth": 3,
+      "type": 2,
+      "kind": "mesh",
+      "name": "STEER_HR_LCD",
+      "parent": "STEER_HR_LCD",
+      "child_count": 0,
+      "active": 1,
+      "vertices": 4,
+      "indices": 6,
+      "material_id": 55,
+      "material": "gp21_LCD",
+      "local_bounds": {
+        "min": [
+          -0.07962673157453537,
+          0.0030445102602243423,
+          -0.016890941187739372
+        ],
+        "max": [
+          0.019619306549429893,
+          0.06304452568292618,
+          0.1009628176689148
+        ]
+      }
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "DISPLAY_TYRE_RR",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "matrix": [
+        1.09170663356781,
+        1.9088005842604616e-07,
+        5.205662887419749e-07,
+        0.0,
+        -1.9088024316715746e-07,
+        1.09170663356781,
+        3.9042481603246415e-07,
+        0.0,
+        -5.246013756732282e-07,
+        -3.934512733394513e-07,
+        1.1001689434051514,
+        0.0,
+        -0.009506727568805218,
+        0.03338909149169922,
+        -0.06823164224624634,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "DISPLAY_TYRE_RF",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "matrix": [
+        1.09170663356781,
+        1.9088005842604616e-07,
+        5.205662887419749e-07,
+        0.0,
+        -1.9088024316715746e-07,
+        1.09170663356781,
+        3.9042481603246415e-07,
+        0.0,
+        -5.246013756732282e-07,
+        -3.934512733394513e-07,
+        1.1001689434051514,
+        0.0,
+        -0.009624065831303596,
+        0.040177881717681885,
+        -0.06823170185089111,
+        1.0
+      ]
+    },
+    {
+      "depth": 2,
+      "type": 1,
+      "kind": "dummy",
+      "name": "DISPLAY_TYRE_LF",
+      "parent": "STEER_HR",
+      "child_count": 0,
+      "active": 1,
+      "matrix": [
+        1.09170663356781,
+        1.9088005842604616e-07,
+        5.205662887419749e-07,
+        0.0,
+        -1.9088024316715746e-07,
+        1.09170663356781,
+        3.9042481603246415e-07,
+        0.0,
+        -5.246013756732282e-07,
+        -3.934512733394513e-07,
+        1.1001689434051514,
+        0.0,
+        0.015588823705911636,
+        0.040177881717681885,
+        -0.06823170185089111,
+        1.0
+      ]
+    }
+  ],
+  "node_names": [
+    "FBX: ferrari_sf90.fbx",
+    "chrome",
+    "chrome",
+    "g_light_safe",
+    "g_light_safe",
+    "_g_light_safe",
+    "_g_light_safe",
+    "HEADERS_PADS",
+    "HEADERS_PADS",
+    "MIRRORR",
+    "MIRRORR",
+    "carbon",
+    "carbon_SUB1",
+    "carbon_SUB0",
+    "cockpit_details",
+    "cockpit_details",
+    "cockpit_carbon2",
+    "cockpit_carbon2",
+    "g_light_rain",
+    "g_light_rain",
+    "blacks",
+    "blacks",
+    "MIRRORL",
+    "MIRRORL",
+    "_detail_BOLT",
+    "_detail_BOLT",
+    "_detials_bol2",
+    "_detials_bol2",
+    "_BOLT020",
+    "_BOLT020",
+    "cockpit_carbon003",
+    "cockpit_carbon003",
+    "COCKPIT_HR",
+    "COCKPIT_HR",
+    "cockpit_carbon",
+    "cockpit_carbon",
+    "cockpit_chrome",
+    "cockpit_chrome",
+    "CINTURE_OFF",
+    "CINTURE_OFF_SUB1",
+    "CINTURE_OFF_SUB0",
+    "CINTURE_ON",
+    "CINTURE_ON_SUB1",
+    "CINTURE_ON_SUB0",
+    "cockpit_cables002",
+    "cockpit_cables002",
+    "cockpit_buttons",
+    "cockpit_buttons",
+    "cockpit_blacks",
+    "cockpit_blacks",
+    "cockpit_foam",
+    "cockpit_foam",
+    "HALO",
+    "HALO_SUB2",
+    "HALO_SUB1",
+    "HALO_SUB0",
+    "RWING_WOBBLE",
+    "RWING",
+    "RWING_SUB3",
+    "RWING_SUB4",
+    "RWING_SUB5",
+    "RWING_SUB0",
+    "RWING_SUB2",
+    "RWING_SUB1",
+    "g_light_rain2",
+    "g_light_rain2",
+    "RWING_2",
+    "RWING_2_SUB1",
+    "RWING_2_SUB0",
+    "RWING_2_SUB2",
+    "DRS2",
+    "DRS2",
+    "DRS1",
+    "DRS1",
+    "SUSP_RR",
+    "HUB_RR",
+    "WHEEL_RR",
+    "RIM_BLUR_RR",
+    "RIM_BLUR_RR_SUB3",
+    "RIM_BLUR_RR_SUB2",
+    "RIM_BLUR_RR_SUB1",
+    "RIM_BLUR_RR_SUB0",
+    "TYRE_RR",
+    "TYRE_RR_SUB1",
+    "TYRE_RR_SUB0",
+    "RIM_RR",
+    "RIM_RR_SUB3",
+    "RIM_RR_SUB0",
+    "RIM_RR_SUB1",
+    "RIM_RR_SUB2",
+    "CALIPER_RR",
+    "CALIPER_RR",
+    "SUSP_LR",
+    "HUB_LR",
+    "WHEEL_LR",
+    "RIM_BLUR_LR",
+    "RIM_BLUR_LR_SUB3",
+    "RIM_BLUR_LR_SUB2",
+    "RIM_BLUR_LR_SUB1",
+    "RIM_BLUR_LR_SUB0",
+    "TYRE_LR",
+    "TYRE_LR_SUB1",
+    "TYRE_LR_SUB0",
+    "RIM_LR",
+    "RIM_LR_SUB3",
+    "RIM_LR_SUB0",
+    "RIM_LR_SUB1",
+    "RIM_LR_SUB2",
+    "CALIPER_LR",
+    "CALIPER_LR",
+    "HUB_LF",
+    "SUSP_LF",
+    "CALIPER_LF",
+    "CALIPER_LF",
+    "WHEEL_LF",
+    "RIM_BLUR_LF",
+    "RIM_BLUR_LF_SUB3",
+    "RIM_BLUR_LF_SUB2",
+    "RIM_BLUR_LF_SUB1",
+    "RIM_BLUR_LF_SUB0",
+    "RIM_LF",
+    "RIM_LF_SUB3",
+    "RIM_LF_SUB0",
+    "RIM_LF_SUB1",
+    "RIM_LF_SUB2",
+    "TYRE_LF",
+    "TYRE_LF_SUB1",
+    "TYRE_LF_SUB0",
+    "HUB_RF",
+    "WHEEL_RF",
+    "RIM_BLUR_RF",
+    "RIM_BLUR_RF_SUB3",
+    "RIM_BLUR_RF_SUB2",
+    "RIM_BLUR_RF_SUB1",
+    "RIM_BLUR_RF_SUB0",
+    "RIM_RF",
+    "RIM_RF_SUB3",
+    "RIM_RF_SUB0",
+    "RIM_RF_SUB1",
+    "RIM_RF_SUB2",
+    "TYRE_RF",
+    "TYRE_RF_SUB1",
+    "TYRE_RF_SUB0",
+    "SUSP_RF",
+    "CALIPER_RF",
+    "CALIPER_RF",
+    "Dummy001",
+    "Object249",
+    "Object249",
+    "Dummy002",
+    "Object255",
+    "Object255",
+    "Dummy003",
+    "Object251",
+    "Object251",
+    "Dummy004",
+    "Object257",
+    "Object257",
+    "Dummy007",
+    "Object252",
+    "Object252",
+    "Dummy008",
+    "Object2913",
+    "Object2913",
+    "Dummy009",
+    "Object254",
+    "Object254",
+    "Dummy010",
+    "Object260",
+    "Object260",
+    "Dummy011",
+    "Object253",
+    "Object253",
+    "Dummy012",
+    "Object259",
+    "Object259",
+    "Dummy017",
+    "aero_sensors",
+    "aero_sensors",
+    "FLYCAM_L_0",
+    "FLYCAM_L_1",
+    "FLYCAM_L_2",
+    "FLYCAM_L_3",
+    "FLYCAM_L_4",
+    "FLYCAM_L_5",
+    "FLYCAM_R_0",
+    "FLYCAM_R_1",
+    "FLYCAM_R_2",
+    "FLYCAM_R_3",
+    "FLYCAM_R_4",
+    "FLYCAM_R_5",
+    "Dummy018",
+    "ant1",
+    "ANTENNA_MOVING",
+    "ANTENNA_MOVING",
+    "MAIN_BODY",
+    "MAIN_BODY_SUB1",
+    "MAIN_BODY_SUB2",
+    "MAIN_BODY_SUB0",
+    "_WINGLETS_FWING",
+    "_WINGLETS_FWING",
+    "FWING_1",
+    "FWING_1_SUB3",
+    "FWING_1_SUB0",
+    "FWING_1_SUB2",
+    "FWING_1_SUB1",
+    "fwing_arms",
+    "fwing_arms",
+    "Dummy019",
+    "Object281",
+    "Object281",
+    "Dummy020",
+    "Object283",
+    "Object283",
+    "_SUSP_ADD",
+    "_SUSP_ADD",
+    "Object2910",
+    "Object2910",
+    "CAM",
+    "CAM",
+    "MIRRORS2",
+    "MIRRORS2",
+    "g_light_rain3",
+    "g_light_rain3",
+    "glass",
+    "glass",
+    "Object2912",
+    "Object2912",
+    "black005",
+    "black005",
+    "chrome2",
+    "chrome2",
+    "Object2915",
+    "Object2915_SUB0",
+    "Object2915_SUB1",
+    "Object2915_SUB2",
+    "blacks3",
+    "blacks3",
+    "WIND",
+    "WIND_SUB0",
+    "WIND_SUB1",
+    "black",
+    "black",
+    "black006",
+    "black006",
+    "black007",
+    "black007",
+    "Object2917",
+    "Object2917",
+    "decals",
+    "decals",
+    "STEER_HR",
+    "STEER_HR_SUB6",
+    "STEER_HR_SUB5",
+    "STEER_HR_SUB4",
+    "STEER_HR_SUB3",
+    "STEER_HR_SUB2",
+    "STEER_HR_SUB0",
+    "STEER_HR_SUB8",
+    "STEER_HR_SUB7",
+    "STEER_HR_SUB1",
+    "LED_Yellow",
+    "LED_Yellow",
+    "LED_Red",
+    "LED_Red",
+    "LED_Blue",
+    "LED_Blue",
+    "DISPLAY_TYRE_LR",
+    "STEER_HR_LCD",
+    "STEER_HR_LCD",
+    "LED_CHARGE_0",
+    "LED_CHARGE_0",
+    "LED_CHARGE_1",
+    "LED_CHARGE_1",
+    "LED_CHARGE_2",
+    "LED_CHARGE_2",
+    "LED_CHARGE_3",
+    "LED_CHARGE_3",
+    "LED_CHARGE_4",
+    "LED_CHARGE_4",
+    "LED_CHARGE_5",
+    "LED_CHARGE_5",
+    "LED_CHARGE_6",
+    "LED_CHARGE_6",
+    "LED_CHARGE_7",
+    "LED_CHARGE_7",
+    "LED_CHARGE_8",
+    "LED_CHARGE_8",
+    "LED_CHARGE_9",
+    "LED_CHARGE_9",
+    "LED_CHARGE_10",
+    "LED_CHARGE_10",
+    "LED_CHARGE_11",
+    "LED_CHARGE_11",
+    "LED_CHARGE_12",
+    "LED_CHARGE_12",
+    "LED_CHARGE_13",
+    "LED_CHARGE_13",
+    "LED_CHARGE_14",
+    "LED_CHARGE_14",
+    "LED_CHARGE_15",
+    "LED_CHARGE_15",
+    "LED_CHARGE_16",
+    "LED_CHARGE_16",
+    "LED_CHARGE_17",
+    "LED_CHARGE_17",
+    "LED_KERS_0",
+    "LED_KERS_0",
+    "LED_KERS_1",
+    "LED_KERS_1",
+    "LED_KERS_2",
+    "LED_KERS_2",
+    "TAG_DRS_PRE",
+    "TAG_DRS_PRE",
+    "LED_KERS_4",
+    "LED_KERS_4",
+    "LED_KERS_5",
+    "LED_KERS_5",
+    "LED_KERS_6",
+    "LED_KERS_6",
+    "LED_KERS_7",
+    "LED_KERS_7",
+    "LED_KERS_8",
+    "LED_KERS_8",
+    "LED_KERS_9",
+    "LED_KERS_9",
+    "LED_KERS_10",
+    "LED_KERS_10",
+    "LED_KERS_11",
+    "LED_KERS_11",
+    "LED_KERS_12",
+    "LED_KERS_12",
+    "LED_KERS_13",
+    "LED_KERS_13",
+    "LED_KERS_14",
+    "LED_KERS_14",
+    "LED_KERS_15",
+    "LED_KERS_15",
+    "LED_KERS_16",
+    "LED_KERS_16",
+    "LED_KERS_17",
+    "LED_KERS_17",
+    "DISPLAY_TYRE_RR",
+    "DISPLAY_TYRE_RF",
+    "DISPLAY_TYRE_LF",
+    "DISPLAY_LAPTIME",
+    "TAG_2",
+    "TAG_2",
+    "FECONOMY",
+    "DISPLAY_RPM",
+    "DISPLAY_PERF",
+    "DISPLAY_FUEL",
+    "CURRENT_LAP",
+    "DISPLAY_SPEED",
+    "DISPLAY_GEAR",
+    "LED_KERS_3",
+    "LED_KERS_3",
+    "TAG_4",
+    "TAG_4",
+    "TAG_10",
+    "TAG_10",
+    "TAG_DRS",
+    "TAG_DRS",
+    "TAG_UNUSED",
+    "TAG_UNUSED",
+    "TAG_0",
+    "TAG_0",
+    "TAG_1",
+    "TAG_1",
+    "TAG_3",
+    "TAG_3",
+    "LAST_LAP",
+    "black008",
+    "black008",
+    "Object2918",
+    "Object2918"
+  ],
+  "parse_end": 14302513,
+  "remaining_bytes": 29997443
+}
